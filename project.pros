@@ -1,7 +1,8 @@
 {
   "py/object": "pros.conductor.project.Project",
   "py/state": {
-    "project_name": "Irvington Robotics Bluescreens",
+    "project_name": "
+      %TODO: Rename project% Irvington Robotics Bluescreens",
     "target": "v5",
     "templates": {
       "kernel": {
