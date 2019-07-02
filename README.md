@@ -11,11 +11,16 @@ are done and hit the "Create repository from template" button.
 If you're still confused, please consult
 https://help.github.com/en/articles/creating-a-repository-from-a-template.
 
-After copying the template, follow along with the TODO directions by
-searching for `%TODO` and making edits.
+After copying the template:
 
-(In Atom, press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>F</kbd>) to
-search in project.
+1. follow along with the TODO directions by searching for `%TODO` and
+making edits (In Atom, press <kbd>ctrl</kbd> + <kbd>shift</kbd> +
+<kbd>F</kbd> to search in project).
+
+2. Download [firmware/okapilib.a](https://github.com/IrvingtonRobotics/pros-v5-template/raw/master/firmware/okapilib.a)
+from the template repository, then copy the file into your new repository.
+For some reason, this is necessary because the template leaves out this one
+file.
 
 Most of your work will be in the `src/` directory, but you may want to
 edit `include/main.h` to include libraries such as Okapi or edit
